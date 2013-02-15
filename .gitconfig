@@ -1,0 +1,16 @@
+[user]
+	email = ed.robinson@reevoo.com
+	name = Ed Robinson
+[color]
+	diff = auto
+	branch = auto
+	status = auto
+[mergetool]
+	keepBackup = true
+[git-up "bundler"]
+	check = true
+  autoinstall = true
+[core]
+	excludesfile = /Users/edr/.gitignore_global
+[push]
+  default = current

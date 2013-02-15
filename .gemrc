@@ -1,0 +1,10 @@
+--- 
+:bulk_threshold: 1000
+install: --no-rdoc --no-ri
+:update_sources: true
+:backtrace: false
+update: --no-rdoc --no-ri
+:verbose: true
+:sources: 
+- http://rubygems.org/
+:benchmark: false

@@ -1,0 +1,12 @@
+#!/bin/bash
+dir=~/dotfiles
+olddir=~/dotfiles_old
+files=`ls -a $dir | grep '^\.[a-zA-Z]' | grep -v '^\.git$'`
+mkdir -p $olddir
+cd $dir
+for file in $files; do
+    mv ~/$file $olddir
+    ln -s $dir/$file ~/$file
+done
+mv ~/bin $olddir
+ln -s $dir/bin ~
