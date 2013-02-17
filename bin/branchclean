@@ -1,0 +1,27 @@
+#!/bin/bash
+set -e
+
+# This has to be run from master
+git checkout master
+
+# Update our list of remotes
+git fetch
+git remote prune origin
+
+# Remove local fully merged branches
+git branch --merged master | grep -v 'master$' | xargs git branch -d
+
+# Show remote fully merged branches
+function merged_remotes {
+  git branch -r --merged master | sed 's/ *origin\///' | grep -v 'master$'
+}
+echo "The following remote branches are fully merged and will be removed:"
+merged_remotes
+
+read -p "Continue (y/n)? "
+if [ "$REPLY" == "y" ]
+then
+   # Remove remote fully merged branches
+   merged_remotes | xargs -I% git push origin --delete %
+   echo "Done!"
+fi
