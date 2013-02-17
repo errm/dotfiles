@@ -38,7 +38,7 @@ plugins=(git rails3 bundler)
 source $ZSH/oh-my-zsh.sh
 
 # Set up the PATH...
-export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # see https://gist.github.com/burke/1688857
