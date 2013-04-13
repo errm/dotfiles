@@ -24,6 +24,7 @@ alias cdw='cd ~/work/'
 
 alias scpry='be script/console --IRB=pry'
 alias bcb='bundle check && bundle'
+alias :q='exit'
 
 # Look in ~/.oh-my-zsh/themes/
 ZSH_THEME="robbyrussell"
