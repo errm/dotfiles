@@ -30,7 +30,7 @@ ZSH_THEME="robbyrussell"
 
 alias ohmyzsh="edit ~/.oh-my-zsh"
 
-alias password="openssl rand -base64 12 | pbcopy"
+alias password="openssl rand -base64 12 | tr -d '\n' | pbcopy"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 plugins=(git rails3 bundler)
