@@ -11,6 +11,6 @@
 	check = true
   autoinstall = true
 [core]
-	excludesfile = /Users/edr/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [push]
   default = current
