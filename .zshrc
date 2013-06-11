@@ -5,6 +5,7 @@ export EDITOR='vim'
 #Profile junk
 alias edzrc='vim ~/.zshrc'
 alias rlzrc='source ~/.zshrc'
+alias :q='exit'
 
 #Ship to staging
 alias sts='autotag create staging && git push && cap staging deploy:migrations'
