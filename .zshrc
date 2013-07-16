@@ -8,9 +8,9 @@ alias rlzrc='source ~/.zshrc'
 alias :q='exit'
 
 #Ship to staging
-alias sts='autotag create staging && git push && cap staging deploy:migrations'
-alias stps='autotag create pre-staging && git push && cap pre-staging deploy:migrations'
+alias sts='cap staging deploy:migrations && autotag create staging && git push'
 alias stage='sts'
+alias stps='cap pre-staging deploy:migrations && autotag create pre-staging && git push'
 alias ship='sts'
 
 #Force compass sprites to regenerate
