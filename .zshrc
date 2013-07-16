@@ -40,8 +40,8 @@ plugins=(git rails3 bundler)
 source $ZSH/oh-my-zsh.sh
 
 # Set up the PATH...
-export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH=$HOME/bin:$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
+eval "$(rbenv init -)"
 
 # see https://gist.github.com/burke/1688857
 export RUBY_GC_MALLOC_LIMIT=1000000000
