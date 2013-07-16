@@ -30,8 +30,17 @@ alias scpry='be script/console --IRB=pry'
 alias bcb='bundle check && bundle'
 alias :q='exit'
 
+POWERLINE_HIDE_USER_NAME="true"
+POWERLINE_HIDE_HOST_NAME="true"
+POWERLINE_DETECT_SSH="true"
+POWERLINE_RIGHT_A="exit-status"
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerline"
+
+ZSH_THEME="agnoster"
+
+ZSH_THEME="agnoster"
+
 
 alias ohmyzsh="edit ~/.oh-my-zsh"
 
