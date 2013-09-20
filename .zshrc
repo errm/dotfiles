@@ -24,6 +24,7 @@ alias cdca='cd ~/reevoo/carmen/'
 alias cdis='cd ~/reevoo/image_service/'
 alias cdao='cd ~/reevoo/ask_an_owner_app/'
 alias cdbs='cd ~/reevoo/badge_service/'
+alias cdqb='cd ~/reevoo/questionnaire_broker/'
 alias cdr='cd ~/reevoo/'
 
 alias scpry='be script/console --IRB=pry'
