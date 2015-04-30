@@ -1,4 +1,6 @@
 #!/bin/sh
 
-ln -s `pwd`/.zshrc ~/.zshrc
-ln -s `pwd`/.gitconfig ~/.gitconfig
+ln -nfs `pwd`/.zshrc ~/.zshrc
+ln -nfs `pwd`/.gitconfig ~/.gitconfig
+ln -nfs `pwd`/.vim ~/.vim
+ln -nfs `pwd`/.vimrc ~/.vimrc
