@@ -26,7 +26,16 @@ map <F10> :w <bar> ! clear && ruby % <CR>
 
 noremap <silent> <F12> :set number!<CR>
 
+"Toggle NERDTree
 map <Leader>n :NERDTreeToggle<CR>
+
+"Open NERDTree if no files
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+"Close vim if NERDTree is last open buffer
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 
 nnoremap <leader>rh :%s/:\(\w\+\)\(\s*=>\s*\)/\1: /g<CR>
 nnoremap <leader>ts :%s/def test_\(.*\)/it "\1" do/ge<CR>:%s/class \(\w*\)Test.*/describe "\1" do/ge<CR>:%s/should "/ it "/ge<CR>:%s/should '/it '/ge<CR>:%s/expects/should_receive/ge<CR>:%s/stubs/stub/ge<CR>:%s/returns/and_return/ge<CR>:%s/require.*test_helper.*/require 'spec_helper'/ge<CR>:%s/def setup$/before do/ge<CR>:%s/setup do/before do/ge<CR>
