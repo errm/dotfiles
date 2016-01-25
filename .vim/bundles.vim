@@ -23,4 +23,5 @@ Plugin 'jnwhiteh/vim-golang'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'Peeja/vim-cdo'
 
+call vundle#end()
 filetype plugin indent on     " required!
