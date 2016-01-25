@@ -1,26 +1,26 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'scrooloose/nerdtree'
-"Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'kien/ctrlp.vim'
-Bundle 'jeetsukumaran/vim-buffergator'
-Bundle 'derekwyatt/vim-scala'
-Bundle 'skalnik/vim-vroom'
-Bundle 'rking/ag.vim'
-Bundle 'vim-scripts/AutoTag'
-Bundle 'tpope/vim-sensible'
-Bundle 'ngmy/vim-rubocop'
-Bundle 'slim-template/vim-slim'
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'Peeja/vim-cdo'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'kien/ctrlp.vim'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'skalnik/vim-vroom'
+Plugin 'rking/ag.vim'
+Plugin 'vim-scripts/AutoTag'
+Plugin 'tpope/vim-sensible'
+Plugin 'ngmy/vim-rubocop'
+Plugin 'slim-template/vim-slim'
+Plugin 'jnwhiteh/vim-golang'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'Peeja/vim-cdo'
 
 filetype plugin indent on     " required!
