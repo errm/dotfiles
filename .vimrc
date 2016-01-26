@@ -6,6 +6,12 @@ let g:airline_powerline_fonts = 1
 
 syntax enable
 set background=dark
+colorscheme solarized
+" solarized options
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+let g:solarized_termcolors=16
+let g:solarized_termtrans = 1
 
 set tags+=gems.tags
 
