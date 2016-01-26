@@ -7,8 +7,11 @@ antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle rbenv
+UNBUNDLED_COMMANDS=(knife)
 antigen bundle bundler
 antigen bundle errm/vundle.zsh
 antigen theme agnoster
 
 antigen apply
+
+export PATH="/opt/chefdk/bin:$PATH"
