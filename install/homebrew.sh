@@ -10,6 +10,8 @@ fi
 brew install \
   corectl \
   git \
+  rbenv\
+  ruby-build\
   vim \
   zsh  \
   zsh-completions \
