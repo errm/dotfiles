@@ -22,6 +22,7 @@ Plugin 'slim-template/vim-slim'
 Plugin 'jnwhiteh/vim-golang'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'Peeja/vim-cdo'
+Plugin 'vim-airline/vim-airline'
 Plugin 'benmills/vimux'
 
 call vundle#end()

@@ -1,6 +1,9 @@
 " Vundle and bundles configuration
 source ~/.vim/bundles.vim
 
+
+let g:airline_powerline_fonts = 1
+
 syntax enable
 set background=dark
 
