@@ -9,7 +9,6 @@ antigen bundle git
 antigen bundle rbenv
 antigen bundle bundler
 antigen bundle errm/vundle.zsh
-antigen theme jeremyFreeAgent/oh-my-zsh-powerline-theme powerline
+antigen theme agnoster
 
 antigen apply
-
