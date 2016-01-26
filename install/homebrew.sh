@@ -12,6 +12,7 @@ brew install \
   git \
   rbenv\
   ruby-build\
+  tmux \
   vim \
   zsh  \
   zsh-completions \

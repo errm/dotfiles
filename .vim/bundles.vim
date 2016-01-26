@@ -22,6 +22,7 @@ Plugin 'slim-template/vim-slim'
 Plugin 'jnwhiteh/vim-golang'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'Peeja/vim-cdo'
+Plugin 'benmills/vimux'
 
 call vundle#end()
 filetype plugin indent on     " required!

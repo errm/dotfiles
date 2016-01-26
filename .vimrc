@@ -19,6 +19,7 @@ set hidden
 set hlsearch
 
 let g:vroom_use_zeus=1
+let g:vroom_use_vimux=1
 
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
