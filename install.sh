@@ -12,10 +12,7 @@ git submodule update
 
 ./fonts/install.sh
 
-ln -nfs ~/dotfiles/.zshrc ~/.zshrc
-ln -nfs ~/dotfiles/.gitconfig ~/.gitconfig
-ln -nfs ~/dotfiles/.vim ~/.vim
-ln -nfs ~/dotfiles/.vimrc ~/.vimrc
+source "install/simlinks.sh"
 
 if [ "$SHELL" != "/bin/zsh" ]
 then
