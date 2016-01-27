@@ -1,6 +1,7 @@
 source ~/.secrets.zsh
 source ~/dotfiles/antigen/antigen.zsh
 
+export EDITOR=vim
 export RBENV_ROOT=/usr/local/var/rbenv
 
 antigen use oh-my-zsh
