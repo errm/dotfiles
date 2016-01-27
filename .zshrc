@@ -21,3 +21,5 @@ export PATH="/opt/chefdk/bin:$PATH"
 alias kcu="knife cookbook upload"
 function edb () { knife data bag $* --secret-file /etc/chef/encrypted_data_bag_secret }
 
+#Fush DNS
+alias fdns="dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
