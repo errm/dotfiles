@@ -11,6 +11,7 @@ UNBUNDLED_COMMANDS=(knife)
 antigen bundle bundler
 antigen bundle errm/vundle.zsh
 antigen theme agnoster
+antigen bundle wd
 
 antigen apply
 
