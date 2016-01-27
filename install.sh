@@ -17,4 +17,7 @@ ln -nfs ~/dotfiles/.gitconfig ~/.gitconfig
 ln -nfs ~/dotfiles/.vim ~/.vim
 ln -nfs ~/dotfiles/.vimrc ~/.vimrc
 
-chsh -s /bin/zsh
+if [ "$SHELL" != "/bin/zsh" ]
+then
+  chsh -s /bin/zsh
+fi
