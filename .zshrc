@@ -16,4 +16,8 @@ antigen bundle wd
 
 antigen apply
 
+#Chef
 export PATH="/opt/chefdk/bin:$PATH"
+alias kcu="knife cookbook upload"
+function edb () { knife data bag $* --secret-file /etc/chef/encrypted_data_bag_secret }
+
