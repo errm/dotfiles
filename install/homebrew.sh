@@ -10,9 +10,18 @@ fi
 brew install \
   corectl \
   git \
+  percona-server \
+  postgresql \
+  imagemagick \
   rbenv\
   ruby-build\
+  the_silver_searcher \
   tmux \
-  vim \
+  tree \
   zsh  \
   zsh-completions \
+
+ln -sfv /usr/local/opt/percona-server/*.plist ~/Library/LaunchAgents
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+
+brew install vim --override-system-vim
