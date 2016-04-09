@@ -12,7 +12,7 @@ git submodule update
 
 ./fonts/install.sh
 
-source "install/simlinks.sh"
+source "install/symlinks.sh"
 
 if [ "$SHELL" != "/bin/zsh" ]
 then

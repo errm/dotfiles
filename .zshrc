@@ -2,7 +2,6 @@ source ~/.secrets.zsh
 source ~/dotfiles/antigen/antigen.zsh
 
 export EDITOR=vim
-export RBENV_ROOT=/usr/local/var/rbenv
 
 antigen use oh-my-zsh
 
@@ -23,3 +22,7 @@ function edb () { knife data bag $* --secret-file /etc/chef/encrypted_data_bag_s
 
 #Fush DNS
 alias fdns="dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
+#add ~/bin to front of path
+export PATH="$HOME/bin:$PATH"
+
+export BASH_ENV="~/.zshenv"
