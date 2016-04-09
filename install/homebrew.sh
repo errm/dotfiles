@@ -14,6 +14,8 @@ brew install \
   csshx \
   git \
   git-crypt \
+  glide \
+  go \
   heroku-toolbelt \
   htop-osx \
   imagemagick \
