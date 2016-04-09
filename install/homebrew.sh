@@ -15,7 +15,7 @@ brew install \
   git \
   git-crypt \
   heroku-toolbelt \
-  htop \
+  htop-osx \
   imagemagick \
   percona-server \
   postgresql \
