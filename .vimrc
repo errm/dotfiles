@@ -71,6 +71,9 @@ autocmd BufWritePre     *.rb :call TrimWhiteSpace()
 
 set noswapfile
 
-"let g:vimrubocop_config = '~/.rubocop.yml'
+let g:vimrubocop_rubocop_cmd = 'bundle exec reevoocop '
+let g:vimrubocop_extra_args = '-D'
 let g:syntastic_ruby_checkers=['mri']
 au BufRead,BufNewFile Assemblyfile set filetype=ruby
+
+nmap <F8> :TagbarToggle<CR>
