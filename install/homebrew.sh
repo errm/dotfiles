@@ -7,6 +7,8 @@ else
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+brew upgrade
+
 brew install \
   corectl \
   csshx \
