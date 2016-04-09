@@ -7,9 +7,12 @@ brew cask install \
   box-sync \
   chefdk \
   dropbox \
+  gimp \
   gitx \
   google-chrome \
   iterm2 \
   keepassx \
   sequel-pro \
+  skype \
   slack \
+  spotify \

@@ -9,10 +9,15 @@ fi
 
 brew install \
   corectl \
+  csshx \
   git \
+  git-crypt \
+  heroku-toolbelt \
+  htop \
+  imagemagick \
   percona-server \
   postgresql \
-  imagemagick \
+  qt5 \
   rbenv\
   ruby-build\
   the_silver_searcher \
@@ -25,3 +30,5 @@ ln -sfv /usr/local/opt/percona-server/*.plist ~/Library/LaunchAgents
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 
 brew install vim --override-system-vim
+
+brew link --force qt5
