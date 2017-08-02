@@ -27,9 +27,6 @@ set hidden
 
 set hlsearch
 
-let g:vroom_use_zeus=1
-let g:vroom_use_vimux=1
-
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
 map <F10> :w <bar> ! clear && ruby % <CR>
@@ -74,6 +71,6 @@ set noswapfile
 let g:vimrubocop_rubocop_cmd = 'bundle exec reevoocop '
 let g:vimrubocop_extra_args = '-D'
 let g:syntastic_ruby_checkers=['mri']
-au BufRead,BufNewFile Assemblyfile set filetype=ruby
+au BufRead,BufNewFile Assemblyfile set filetype=yaml
 
 nmap <F8> :TagbarToggle<CR>

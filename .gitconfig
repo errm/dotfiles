@@ -1,5 +1,15 @@
 [user]
 	name = Ed Robinson
-	email = ed@reevoo.com
+	email = ed.robinson@reevoo.com
+	signingkey = 6421CCF0
 [push]
 	default = simple
+[commit]
+	gpgsign = true
+[alias]
+	rpr = !sh .github/rpr.sh
+[diff "pandoc"]
+    textconv=pandoc --to=markdown
+      prompt = false
+[alias]
+    wdiff = diff --word-diff=color --unified=1

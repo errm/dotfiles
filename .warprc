@@ -12,3 +12,4 @@ alb:~/assemblyline/builder
 gor:~/go/src/github.com/reevoo
 goal:~/go/src/github.com/assemblyline
 rm:~/reevoo/mark
+tfk:~/go/src/github.com/containous/traefik

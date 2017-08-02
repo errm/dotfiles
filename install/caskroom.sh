@@ -11,7 +11,9 @@ brew cask install \
   gitx \
   google-chrome \
   iterm2 \
+  java \
   keepassx \
+  libreoffice \
   sequel-pro \
   skype \
   slack \

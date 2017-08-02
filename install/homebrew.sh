@@ -19,6 +19,8 @@ brew install \
   heroku-toolbelt \
   htop-osx \
   imagemagick \
+  node-build \
+  nodenv \
   percona-server \
   postgresql \
   qt5 \

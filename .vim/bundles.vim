@@ -26,6 +26,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'benmills/vimux'
 Plugin 'fatih/vim-go'
 Plugin 'majutsushi/tagbar'
+Plugin 'ElmCast/elm-vim'
 
 call vundle#end()
 filetype plugin indent on     " required!

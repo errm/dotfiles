@@ -26,3 +26,22 @@ alias fdns="dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
 export PATH="$HOME/bin:$PATH"
 
 export BASH_ENV="~/.zshenv"
+
+#nodenv
+eval "$(nodenv init -)"
+
+#pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+# added by travis gem
+[ -f /Users/ed/.travis/travis.sh ] && source /Users/ed/.travis/travis.sh
+
+#Ansible Vault Foo
+export ANSIBLE_VAULT_PASSWORD_FILE=~/reevoo/ansible/bin/tools/vault-gpg.sh
+
+# GNU sed
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# Bastion ssh
+alias bssh='ssh -o "ProxyCommand ssh -W %h:%p chef2"'
