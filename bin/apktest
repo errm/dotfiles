@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+docker run \
+  -ti \
+  --rm \
+  -v "$HOME/.abuild/packages/builder:/repo" \
+  -v "$HOME/assemblyline/abuild/repo/main:/a10e" \
+  -v "$HOME/.abuild/ed@reevoo.com-57e3c02b.rsa.pub:/etc/apk/keys/ed@reevoo.com-57e3c02b.rsa.pub" \
+  alpine:edge \
+  sh -c "printf '/repo\n/a10e' >> /etc/apk/repositories && apk update && exec sh"
