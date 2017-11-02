@@ -11,7 +11,10 @@ brew upgrade
 
 brew install \
   csshx \
+  envchain \
+  peco \
   git \
+  ghq \
   glide \
   go \
   htop-osx \

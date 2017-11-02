@@ -15,8 +15,12 @@ antigen apply
 
 #Fush DNS
 alias fdns="dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
+
+alias gcd='cd $(ghq list -p |peco)'
+
 #add ~/bin to front of path
 export PATH="$HOME/bin:$PATH"
+
 
 export BASH_ENV="~/.zshenv"
 
