@@ -3,15 +3,10 @@
 brew tap caskroom/cask
 
 brew cask install \
-  alfred \
-  box-sync \
-  chefdk \
   dropbox \
-  gimp \
-  gitx \
+  rowanj-gitx  \
   google-chrome \
   iterm2 \
-  java \
   keepassx \
   libreoffice \
   sequel-pro \

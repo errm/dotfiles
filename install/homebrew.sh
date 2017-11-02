@@ -10,20 +10,11 @@ fi
 brew upgrade
 
 brew install \
-  corectl \
   csshx \
   git \
-  git-crypt \
   glide \
   go \
-  heroku-toolbelt \
   htop-osx \
-  imagemagick \
-  node-build \
-  nodenv \
-  percona-server \
-  postgresql \
-  qt5 \
   rbenv\
   ruby-build\
   the_silver_searcher \
@@ -32,9 +23,5 @@ brew install \
   zsh  \
   zsh-completions \
 
-ln -sfv /usr/local/opt/percona-server/*.plist ~/Library/LaunchAgents
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 
 brew install vim --override-system-vim
-
-brew link --force qt5
