@@ -17,8 +17,6 @@ brew install \
   glide \
   go \
   htop-osx \
-  kubernetes-cli \
-  kubernetes-helm \
   peco \
   rbenv\
   ruby-build\
@@ -29,4 +27,4 @@ brew install \
   zsh-completions \
 
 
-brew install vim --override-system-vim
+brew install vim --with-override-system-vi

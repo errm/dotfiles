@@ -9,7 +9,6 @@ brew cask install \
   iterm2 \
   keepassx \
   libreoffice \
-  minikube \
   rowanj-gitx  \
   sequel-pro \
   skype \
