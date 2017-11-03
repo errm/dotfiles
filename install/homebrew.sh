@@ -12,12 +12,12 @@ brew upgrade
 brew install \
   csshx \
   envchain \
-  peco \
-  git \
   ghq \
+  git \
   glide \
   go \
   htop-osx \
+  peco \
   rbenv\
   ruby-build\
   the_silver_searcher \
