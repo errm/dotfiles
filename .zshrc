@@ -26,3 +26,5 @@ export BASH_ENV="~/.zshenv"
 
 # GNU sed
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+source <(kubectl completion zsh)
