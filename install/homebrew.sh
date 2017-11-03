@@ -17,6 +17,8 @@ brew install \
   glide \
   go \
   htop-osx \
+  kubernetes-cli \
+  kubernetes-helm \
   peco \
   rbenv\
   ruby-build\
